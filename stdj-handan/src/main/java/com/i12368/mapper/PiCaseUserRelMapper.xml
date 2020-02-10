@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.i12368.dao.IPiCaseUserRelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.i12368.entity.PiCaseUserRel">
+        <id column="ID" property="id" />
+        <result column="AJID" property="ajid" />
+        <result column="PUID" property="puid" />
+        <result column="APUID" property="apuid" />
+        <result column="Position" property="Position" />
+        <result column="AddTime" property="AddTime" />
+        <result column="Remark" property="Remark" />
+    </resultMap>
+
+</mapper>

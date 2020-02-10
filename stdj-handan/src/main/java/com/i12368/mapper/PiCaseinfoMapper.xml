@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.i12368.dao.IPiCaseinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.i12368.entity.PiCaseinfo">
+        <id column="AJID" property="ajid" />
+        <result column="Ah" property="Ah" />
+        <result column="Ajlb" property="Ajlb" />
+        <result column="Cbfyid" property="Cbfyid" />
+        <result column="Cbts" property="Cbts" />
+        <result column="Cbr" property="Cbr" />
+        <result column="Cbrmc" property="Cbrmc" />
+        <result column="CCCode" property="CCCode" />
+        <result column="FilingTime" property="FilingTime" />
+        <result column="LimitTime" property="LimitTime" />
+        <result column="Amount" property="Amount" />
+        <result column="Remark" property="Remark" />
+        <result column="Ajbh" property="Ajbh" />
+    </resultMap>
+
+</mapper>

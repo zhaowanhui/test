@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dataStructure" />
+        <module name="freemarker" />
+        <module name="httpClient" />
+        <module name="Interview" />
+        <module name="md5" />
+        <module name="mongodbDemo" />
+        <module name="showtables" />
+        <module name="spring" />
+        <module name="spring1" />
+        <module name="springboot-capture" />
+        <module name="springboot-shiro" />
+        <module name="stdj-handan" />
+        <module name="testjava" />
+        <module name="webmagic-core" />
+        <module name="ZhuaQu" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dataStructure" target="1.7" />
+      <module name="freemarker" target="1.7" />
+      <module name="httpClient" target="8" />
+      <module name="Interview" target="1.5" />
+      <module name="itcast-crawler-webmagic" target="1.8" />
+      <module name="jd-item" target="1.8" />
+      <module name="md5" target="1.5" />
+      <module name="mongodbDemo" target="8" />
+      <module name="showtables" target="1.8" />
+      <module name="spring" target="1.5" />
+      <module name="spring1" target="1.7" />
+      <module name="springboot-capture" target="1.8" />
+      <module name="springboot-shiro" target="1.8" />
+      <module name="stdj-handan" target="1.8" />
+      <module name="webmagic-core" target="1.6" />
+      <module name="ZhuaQu" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-crawler-webmagic" options="-parameters" />
+      <module name="jd-item" options="-parameters" />
+      <module name="showtables" options="-parameters" />
+      <module name="springboot-capture" options="-parameters" />
+      <module name="springboot-shiro" options="" />
+      <module name="stdj-handan" options="-parameters" />
+    </option>
+  </component>
+</project>

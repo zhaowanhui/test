@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zwh.mapper.Case_of_courtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zwh.entity.Case_of_court">
+        <result column="id" property="id" />
+        <result column="case_name" property="case_name" />
+        <result column="case_number" property="case_number" />
+        <result column="case_number_word" property="case_number_word" />
+        <result column="case_number_used" property="case_number_used" />
+        <result column="case_number_related" property="case_number_related" />
+        <result column="case_year" property="case_year" />
+        <result column="case_sub_number" property="case_sub_number" />
+        <result column="case_cause_code" property="case_cause_code" />
+        <result column="case_cause_name" property="case_cause_name" />
+        <result column="case_cause" property="case_cause" />
+        <result column="case_type_id" property="case_type_id" />
+        <result column="case_type_name" property="case_type_name" />
+        <result column="case_sub_type_id" property="case_sub_type_id" />
+        <result column="case_sub_type_name" property="case_sub_type_name" />
+        <result column="is_pretrial_case" property="is_pretrial_case" />
+        <result column="is_string_case" property="is_string_case" />
+        <result column="court_department_id" property="court_department_id" />
+        <result column="court_department_name" property="court_department_name" />
+        <result column="court_case_group_id" property="court_case_group_id" />
+        <result column="court_case_group_name" property="court_case_group_name" />
+        <result column="judge_id" property="judge_id" />
+        <result column="judge_name" property="judge_name" />
+        <result column="plaintiff" property="plaintiff" />
+        <result column="defendant" property="defendant" />
+        <result column="receiving_department_id" property="receiving_department_id" />
+        <result column="receiving_department_name" property="receiving_department_name" />
+        <result column="receiving_judge_id" property="receiving_judge_id" />
+        <result column="receiving_judge_name" property="receiving_judge_name" />
+        <result column="receiving_source" property="receiving_source" />
+        <result column="case_source" property="case_source" />
+        <result column="closingmethod" property="closingmethod" />
+        <result column="receiving_time" property="receiving_time" />
+        <result column="filing_time" property="filing_time" />
+        <result column="closing_time" property="closing_time" />
+        <result column="opening_time" property="opening_time" />
+        <result column="opening_address_id" property="opening_address_id" />
+        <result column="case_amount" property="case_amount" />
+        <result column="case_level" property="case_level" />
+        <result column="maximum_trial_days" property="maximum_trial_days" />
+        <result column="case_status" property="case_status" />
+        <result column="start_judge_time" property="start_judge_time" />
+        <result column="court_id" property="court_id" />
+        <result column="case_type_word" property="case_type_word" />
+        <result column="case_type_code" property="case_type_code" />
+        <result column="court_name" property="court_name" />
+        <result column="status" property="status" />
+        <result column="category" property="category" />
+        <result column="remark" property="remark" />
+        <result column="created_id" property="created_id" />
+        <result column="created_name" property="created_name" />
+        <result column="updated_id" property="updated_id" />
+        <result column="updated_name" property="updated_name" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+        <result column="is_deleted" property="is_deleted" />
+        <result column="sync_flag" property="sync_flag" />
+        <result column="row_ver" property="row_ver" />
+        <result column="allot_time" property="allot_time" />
+        <result column="platform_code" property="platform_code" />
+    </resultMap>
+
+</mapper>

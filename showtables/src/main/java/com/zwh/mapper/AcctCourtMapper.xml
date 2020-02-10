@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zwh.dao.IAcctCourtMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zwh.entity.AcctCourt">
+        <id column="CourtID" property="CourtID" />
+        <result column="CourtName" property="CourtName" />
+        <result column="CourtCode" property="CourtCode" />
+        <result column="CourtType" property="CourtType" />
+        <result column="ParentCourtID" property="ParentCourtID" />
+        <result column="ProvinceCode" property="ProvinceCode" />
+        <result column="CityCode" property="CityCode" />
+        <result column="Address" property="Address" />
+        <result column="ShortName" property="ShortName" />
+        <result column="LevelNum" property="LevelNum" />
+        <result column="OrderNum" property="OrderNum" />
+        <result column="PostCode" property="PostCode" />
+        <result column="OfficePhone" property="OfficePhone" />
+        <result column="Remark" property="Remark" />
+        <result column="Status" property="Status" />
+        <result column="AddTime" property="AddTime" />
+    </resultMap>
+
+</mapper>

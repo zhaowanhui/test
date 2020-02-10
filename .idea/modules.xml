@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interview/Interview.iml" filepath="$PROJECT_DIR$/Interview/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZhuaQu/ZhuaQu.iml" filepath="$PROJECT_DIR$/ZhuaQu/ZhuaQu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data capture/data capture.iml" filepath="$PROJECT_DIR$/data capture/data capture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataStructure/dataStructure.iml" filepath="$PROJECT_DIR$/dataStructure/dataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/difficulty/difficulty.iml" filepath="$PROJECT_DIR$/difficulty/difficulty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freemarker/freemarker.iml" filepath="$PROJECT_DIR$/freemarker/freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpClient/httpClient.iml" filepath="$PROJECT_DIR$/httpClient/httpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-item/jd-item.iml" filepath="$PROJECT_DIR$/jd-item/jd-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/md5/md5.iml" filepath="$PROJECT_DIR$/md5/md5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodbDemo/mongodbDemo.iml" filepath="$PROJECT_DIR$/mongodbDemo/mongodbDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showtables/showtables.iml" filepath="$PROJECT_DIR$/showtables/showtables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singlten/singlten.iml" filepath="$PROJECT_DIR$/singlten/singlten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring1/spring1.iml" filepath="$PROJECT_DIR$/spring1/spring1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-capture/springboot-capture.iml" filepath="$PROJECT_DIR$/springboot-capture/springboot-capture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stdj-handan/stdj-handan.iml" filepath="$PROJECT_DIR$/stdj-handan/stdj-handan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teach/teach.iml" filepath="$PROJECT_DIR$/teach/teach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testjava/testjava.iml" filepath="$PROJECT_DIR$/testjava/testjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treetwo/treetwo.iml" filepath="$PROJECT_DIR$/treetwo/treetwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic-core/webmagic-core.iml" filepath="$PROJECT_DIR$/webmagic-core/webmagic-core.iml" />
+    </modules>
+  </component>
+</project>

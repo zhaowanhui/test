@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://F:/资料（全部拷贝）/框架/FrameWork/Spring/Code/Spring_SSM_2/WebRoot/WEB-INF/lib" />
+      <root url="jar://E:/apache-tomcat-8.5.30/lib/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://F:/资料（全部拷贝）/框架/FrameWork/Spring/Code/Spring_SSM_2/WebRoot/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

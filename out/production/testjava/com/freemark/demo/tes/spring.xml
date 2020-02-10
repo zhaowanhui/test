@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 包扫描     向哪些包中添加了注解   写了注解需要被工厂识别-->
+    <!-- base-package="com.baizhi.action,com.baizhi.service" -->
+    <context:component-scan base-package="com"></context:component-scan>
+
+    <context:property-placeholder location="classpath:/jdbc.properties"/>
+    <!-- DAO的内容 -->
+    <!-- 创建数据源对象 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${driver}"></property>
+        <property name="url" value="${url}"></property>
+        <property name="username" value="${name}"></property>
+        <property name="password" value="${password}"></property>
+    </bean>
+
+    <!-- MyBATIS 中的 sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 依赖注入          数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!-- 直接注入包中所有的mapper文件 -->
+        <property name="mapperLocations" value="classpath:/com/baizhi/mapper/*Mapper.xml"></property>
+        <!-- 别名  为实体包下的所有实体类其别名  默认 user / User-->
+        <property name="typeAliasesPackage" value="com.baizhi.entity"></property>
+    </bean>
+
+    <!-- 创建DAO的具体实现类   寻找所有的Mapper.xml 进行实例化操作 -->
+    <bean id="mybatisScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- mybatisScanner 直接创建所有DAO的实现类    需要使用sqlSessionFactory工厂 -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <!-- 接口所在包 -->
+        <property name="basePackage" value="com.baizhi.dao"></property>
+        <!-- Spring默认创建出来的所有的DAO实例对象 id 为接口首字母小写      UserDAO  userDAO-->
+    </bean>
+
+    <!-- 声明一个DataSourceTransactionManager   spring提供的事务管理类 这个类可以保证获取相同的连接 （同步标记）-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!-- 声明事务管理类 控制事务的时候开始使用注解 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>

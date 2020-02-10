@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/freemarker" />
+    <file type="web" url="file://$PROJECT_DIR$/spring1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../springboot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/Interview/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring1/pom.xml" />
+        <option value="$PROJECT_DIR$/md5/pom.xml" />
+        <option value="$PROJECT_DIR$/ZhuaQu/pom.xml" />
+        <option value="$PROJECT_DIR$/httpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-capture/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-item/pom.xml" />
+        <option value="$PROJECT_DIR$/webmagic-core/pom.xml" />
+        <option value="$PROJECT_DIR$/stdj-handan/pom.xml" />
+        <option value="$PROJECT_DIR$/showtables/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodbDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/dataStructure/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
